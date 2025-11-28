@@ -16,7 +16,7 @@ console.log(`${nome}, essa é a sua hora extra até agora: ${horasExtras}h`);
 let descontos = leia.questionFloat(`\nDigite o seu desconto no salário, ${nome}: `);
 console.log(`${nome}, essa é o desconto no seu salário: R$${descontos}`);
 
-let salarioLiquido = (salarioBruto + adicionalNoturno + (horasExtras * 5) - descontos);
+let salarioLiquido = (salarioBruto + adicionalNoturno + (horasExtras * 0.5) - descontos);
 console.log(`\nEssa é o seu Salário Líquido, ${nome}: R$${salarioLiquido}.`);
 
 
